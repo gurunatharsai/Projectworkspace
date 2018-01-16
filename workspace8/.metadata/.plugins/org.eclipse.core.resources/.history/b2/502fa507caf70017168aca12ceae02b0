@@ -1,0 +1,48 @@
+package com.niit.DAOImpl;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.niit.DAO.UserDAO;
+import com.niit.model.User;
+
+@Repository
+public class UserDAOImpl implements UserDAO {
+
+	
+	@Autowired
+	SessionFactory sessionFactory;
+	@Override
+	public void adduser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<User> getList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteuser(String username) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public User getUser(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void editUser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
